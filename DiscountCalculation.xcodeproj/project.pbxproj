@@ -12,6 +12,8 @@
 		0CCAEFD920E1E4AE00936BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAEFD720E1E4AE00936BD4 /* Main.storyboard */; };
 		0CCAEFDB20E1E4AE00936BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAEFDA20E1E4AE00936BD4 /* Assets.xcassets */; };
 		0CCAEFDE20E1E4AE00936BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAEFDC20E1E4AE00936BD4 /* LaunchScreen.storyboard */; };
+		0CCAEFE620E213FD00936BD4 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAEFE520E213FD00936BD4 /* PercentViewController.swift */; };
+		0CCAEFE820E21C7E00936BD4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAEFE720E21C7E00936BD4 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0CCAEFDA20E1E4AE00936BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCAEFDD20E1E4AE00936BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CCAEFDF20E1E4AE00936BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCAEFE520E213FD00936BD4 /* PercentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		0CCAEFE720E21C7E00936BD4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				0CCAEFD320E1E4AE00936BD4 /* AppDelegate.swift */,
 				0CCAEFD520E1E4AE00936BD4 /* ViewController.swift */,
+				0CCAEFE520E213FD00936BD4 /* PercentViewController.swift */,
 				0CCAEFD720E1E4AE00936BD4 /* Main.storyboard */,
+				0CCAEFE720E21C7E00936BD4 /* ResultViewController.swift */,
 				0CCAEFDA20E1E4AE00936BD4 /* Assets.xcassets */,
 				0CCAEFDC20E1E4AE00936BD4 /* LaunchScreen.storyboard */,
 				0CCAEFDF20E1E4AE00936BD4 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				0CCAEFD620E1E4AE00936BD4 /* ViewController.swift in Sources */,
 				0CCAEFD420E1E4AE00936BD4 /* AppDelegate.swift in Sources */,
+				0CCAEFE620E213FD00936BD4 /* PercentViewController.swift in Sources */,
+				0CCAEFE820E21C7E00936BD4 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
